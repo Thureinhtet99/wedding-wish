@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jackson & Olivia - Wedding Invitation",
-  description: "You are invited to celebrate the wedding of Jackson and Olivia",
+  title: "Wedding Wish",
+  description: "Wedding wishes for T Nyein Min Myat and Wai Phyar Moe Swe",
 };
 
 export default function RootLayout({
@@ -31,10 +31,6 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-        {/* <link
-          href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
-          rel="stylesheet"
-        /> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
